@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sandbox-click</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div style="width: 1920px;" class="wrapper">
+      <div style="margin: 150px; border: 1px solid red; width: fit-content; padding: 30px; cursor:pointer;" id="right-click-elem">RIGHT CLICK ON THIS ELEMENT</div>
+   </div>
+   <script>
+      let rightClickElem = document.getElementById("right-click-elem")
+      rightClickElem.addEventListener("contextmenu", function() {
+         rightClickElem.classList.add("right-clicked")
+      })
+   </script>
+</body>
+</html>
