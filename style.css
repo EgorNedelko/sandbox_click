@@ -1,3 +1,7 @@
 .right-clicked {
    background-color: aquamarine;
 }
+
+.double-clicked {
+   background-color: rgb(244, 255, 127);
+}

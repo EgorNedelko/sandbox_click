@@ -9,11 +9,18 @@
 <body>
    <div style="width: 1920px;" class="wrapper">
       <div style="margin: 150px; border: 1px solid red; width: fit-content; padding: 30px; cursor:pointer;" id="right-click-elem">RIGHT CLICK ON THIS ELEMENT</div>
+      <div style="margin: 150px; border: 1px solid blue; width: fit-content; padding: 30px; cursor:pointer;" id="double-click-elem">DOUBLE-CLICK ON THIS ELEMENT</div>
    </div>
    <script>
       let rightClickElem = document.getElementById("right-click-elem")
+      let doubleClickElem = document.getElementById("double-click-elem")
+      
       rightClickElem.addEventListener("contextmenu", function() {
          rightClickElem.classList.add("right-clicked")
+      })
+
+      doubleClickElem.addEventListener("dblclick", function() {
+         doubleClickElem.classList.add("double-clicked")
       })
    </script>
 </body>
