@@ -5,3 +5,7 @@
 .double-clicked {
    background-color: rgb(244, 255, 127);
 }
+
+.hovered {
+   background-color: rgb(255, 0, 200)
+}
