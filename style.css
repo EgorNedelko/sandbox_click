@@ -9,3 +9,7 @@
 .hovered {
    background-color: rgb(255, 0, 200)
 }
+
+.clicked-by-coords {
+   background-color: rgb(0, 101, 129)
+}
